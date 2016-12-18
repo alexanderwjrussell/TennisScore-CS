@@ -1,0 +1,6 @@
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/bin/Debug/TennisScore_CS.dll.mdb
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/bin/Debug/TennisScore_CS.dll
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/obj/Debug/TennisScore_CS.dll
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/obj/Debug/TennisScore_CS.dll.mdb
+/Users/alexanderwjrussell/Git/TennisScore_CS/TennisScore_CS/bin/Debug/nunit.framework.dll

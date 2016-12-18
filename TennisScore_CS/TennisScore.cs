@@ -6,7 +6,7 @@ namespace TennisScore_CS
 	{
 		public string Get(string score)
 		{
-			return null;
+			return "Love - Love";
 		}
 	}
 }

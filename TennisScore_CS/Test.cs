@@ -11,5 +11,12 @@ namespace TennisScore_CS
 			var score = new TennisScore();
 			Assert.That(score.Get("0 - 0"), Is.EqualTo("Love - Love"));
 		}
+
+		[Test]
+		public void Should_ReturnNormalScore_When15to15()
+		{
+			var score = new TennisScore();
+			Assert.That(score.Get("15 - 15"), Is.EqualTo("15 - 15"));
+		}
 	}
 }
