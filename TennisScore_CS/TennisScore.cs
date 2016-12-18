@@ -1,14 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TennisScore_CS
 {
 	class TennisScore
 	{
-		public string Get(string score)
+		Dictionary<string, string> scores = new Dictionary<string, string>
 		{
-			score = score.Replace("40 - 40", "Deuce");
-			score = score.Replace("0", "Love");
-			return score;
+			{"0", "Love"},
+			{"15", "15"},
+			{"30", "30"},
+			{"40", "40"}
+		};
+
+		public string Get(string score1, string score2)
+		{
+			var score = $"{scores[score1]} - {scores[score2]}";
+			return score.Replace("40 - 40", "Deuce");
 		}
 	}
 }
