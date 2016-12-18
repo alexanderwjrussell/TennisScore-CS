@@ -25,5 +25,12 @@ namespace TennisScore_CS
 			var score = new TennisScore();
 			Assert.That(score.Get("40 - 40"), Is.EqualTo("Deuce"));
 		}
+
+		[Test]
+		public void Should_ReturnEdgeCases_When30to30()
+		{
+			var score = new TennisScore();
+			Assert.That(score.Get("30 - 30"), Is.EqualTo("30 - 30"));
+		}
 	}
 }
