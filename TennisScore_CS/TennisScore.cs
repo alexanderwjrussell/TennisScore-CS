@@ -6,7 +6,8 @@ namespace TennisScore_CS
 	{
 		public string Get(string score)
 		{
-			return "Love - Love";
+			score = score.Replace("0", "Love");
+			return score;
 		}
 	}
 }

@@ -18,5 +18,12 @@ namespace TennisScore_CS
 			var score = new TennisScore();
 			Assert.That(score.Get("15 - 15"), Is.EqualTo("15 - 15"));
 		}
+
+		[Test]
+		public void Should_ReturnDeuce_When40All()
+		{
+			var score = new TennisScore();
+			Assert.That(score.Get("40 - 40"), Is.EqualTo("Deuce"));
+		}
 	}
 }
